@@ -1,0 +1,39 @@
+.manual-bootstrap {
+  background: #F5F5F5;
+  padding-top: 0;
+}
+.manual-bootstrap .container {
+  background: #FFF;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+.sidebar {
+  position: relative;
+  width: 210px;
+  float: left;
+  display: block;
+  clear: both;
+  top: 0px;
+}
+.clear-both {
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.code-box {
+  display: block;
+  margin:10px 0;
+  width: 100%;
+  padding:10px;
+  background: #E0E1E0;
+}
+.code-box textarea {
+  width: 100%;
+  font-family: consolas;
+  background: #E0E1E0;
+  border: none;
+  text-shadow: 0px -1px 1px #FFF;
+  padding: 0;
+  resize: none;
+  overflow: hidden;
+  font-size: 13px;
+}

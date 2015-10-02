@@ -1,0 +1,104 @@
+.nav>li> a.login {
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 9px 0 0 0;
+  background: #413C8A;
+}
+.nav>li> a.login:hover {
+  background: #413C8A;
+}
+.foldee-description {
+  color: #6e5baa;
+}
+.foldee-description h1 img{
+  width: 80%;
+  max-width: 300px;
+}
+.foldee-description h2 {
+  font-weight: 300;
+  line-height: 1.4;
+  text-align: center;
+}
+.skills-box i{
+  font-size: 5em;
+  vertical-align: middle;
+  display: table-cell;
+}
+.skills-box {
+  color: #6e5baa;
+}
+.skills-box .icon {
+  height: 70px;
+  display: table;
+  width: 100%;
+}
+.landing-foldee-public {
+    box-shadow: inset 0px 0px 35px 5px rgba(0,0,0,0.2);
+}
+footer {
+  margin: 15px 0 0 0;
+  padding:10px 0;
+  border-top: 1px solid #6F6FAB;
+}
+footer span {
+  display: inline-block;
+}
+footer .footer-link {
+  margin:0 10px;
+}
+@media (min-width: 768px) {
+  .landing-foldee-public .form-inline .form-control {
+    width: 450px;
+    height: 50px;
+    font-size: 1em;
+  }
+  .landing-foldee-public .btn-primary{
+    width: 270px;
+    font-size: 1.2em;
+  }
+}
+
+.foldee-description .alert-success, .foldee-description .alert-danger{
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+/*Animations*/
+.animation-1 {
+  -webkit-animation: showing 1s; /* Safari, Chrome and Opera > 12.1 */
+}
+.animation-2 {
+  display: block;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
+}
+.animation-3 {
+  display: block;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+}
+.smally-1 {
+  -webkit-animation: smally 6s infinite;
+}
+.smally-2 {
+  -webkit-animation: smally 4s 9s infinite;
+}
+.smally-3 {
+  -webkit-animation: smally 4s 8s infinite;
+}
+
+@keyframes fadein {
+    0% {opacity: 0; margin-right:-50% }
+    100% {opacity: 1; margin-right:0% }
+}
+@keyframes showing {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes smally {
+    0% {font-size: 5em;}
+    50% {font-size: 4.5em;}
+    100% {font-size: 5em;}
+}
