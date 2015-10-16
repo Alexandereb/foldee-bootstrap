@@ -1,0 +1,17 @@
+{
+  "name": "foldee-bootstrap",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Alexandereb/foldee-bootstrap",
+  "authors": [
+    "Alexander Espinoza <alexeb.dev@gmail.com>"
+  ],
+  "description": "Bootstrap very fast and light for the Foldee front end.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
