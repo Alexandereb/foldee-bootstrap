@@ -1,0 +1,19 @@
+{
+  "name": "foldee-bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap very fast and light for the Foldee front end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alexandereb/foldee-bootstrap.git"
+  },
+  "author": "Alexander Espinoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alexandereb/foldee-bootstrap/issues"
+  },
+  "homepage": "https://github.com/Alexandereb/foldee-bootstrap"
+}
